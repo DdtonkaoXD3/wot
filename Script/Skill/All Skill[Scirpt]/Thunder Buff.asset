@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Thunder Buff
+  m_EditorClassIdentifier: 
+  name: Thunder Buff
+  percentDamage: 0
+  damage: 0
+  PercentCost: 0
+  manaCost: 40
+  cooldown: 10
+  elemental: {fileID: 11400000, guid: 7e16ce432a5bc4542a4c1bb5699bdf2d, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 8035846824743617053, guid: af31c3995d9caa84a89800b1cf483aed, type: 3}
+  description: Gain a 7-second buff that increases the player's damage by 50%
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 0
+  timeSkill: 0
+  skillDamage: 0
+  canUse: 0
+  isHaving: 1

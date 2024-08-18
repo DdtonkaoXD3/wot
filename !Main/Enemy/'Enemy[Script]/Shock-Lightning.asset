@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049b44a9fb9cd944fb4ed2999ae736a8, type: 3}
+  m_Name: Shock-Lightning
+  m_EditorClassIdentifier: 
+  name: Shock-Lightning
+  character: {fileID: 21300000, guid: 70511cb8db7eaef4d9b49d8b600f71d1, type: 3}
+  elemental: {fileID: 11400000, guid: 7e16ce432a5bc4542a4c1bb5699bdf2d, type: 2}
+  hp: 60
+  def: 2
+  mp: 0
+  atk: 17
+  atkSpeed: 0.83
+  moveSpeed: 1.5
+  criticalRate: 15
+  criticalDamage: 130
+  skillResistance: 0
+  spdBullet: 8

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1ab9cdda10f524fb4919d26b48f53e, type: 3}
+  m_Name: Fhun
+  m_EditorClassIdentifier: 
+  name: Fhun
+  character: {fileID: -155734466, guid: 92606cd11a43cbf4fae55096446c698b, type: 3}
+  colorThiny:
+    serializedVersion: 2
+    rgba: 4294962314
+  elemental: {fileID: 11400000, guid: 449fd046c4bd42b46a56a383e13d7ad4, type: 2}
+  hp: 100
+  def: 10
+  atk: 20
+  mp: 100
+  atkSpeed: 0.5
+  moveSpeed: 5.5
+  criticalRate: 10
+  criticalDamage: 130
+  skillResistance: 0
+  isRange: 1
+  currentHp: 100
+  currentMp: 100
+  timeSkills:
+  - 9.296852
+  - 62.467186
+  - 71.545876
+  - 14.467174
+  firstTime: 0
+  isDied: 0
+  cri: 0
+  thinyPrefab: {fileID: 8377703826908133330, guid: 66bd8c91eb83d8f4d9bc531303ccd160, type: 3}
+  isHaving: 1
+  skills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Clay Blast
+  m_EditorClassIdentifier: 
+  name: Clay Blast
+  percentDamage: 1
+  damage: 180
+  PercentCost: 0
+  manaCost: 30
+  cooldown: 6
+  elemental: {fileID: 11400000, guid: 449fd046c4bd42b46a56a383e13d7ad4, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 4376287236942750737, guid: b02ab9df5b4d6a246b036619298db10d, type: 3}
+  description: Fire an arrow that deals massive damage to an enemy and creates an
+    area that slows them by 50% for 3 seconds
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 0
+  timeSkill: 6
+  skillDamage: 0
+  canUse: 0
+  isHaving: 1

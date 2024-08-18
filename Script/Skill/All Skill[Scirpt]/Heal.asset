@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  name: Heal
+  percentDamage: 0
+  damage: 0
+  PercentCost: 1
+  manaCost: 30
+  cooldown: 60
+  elemental: {fileID: 11400000, guid: fe9a8ba6462858c4e81676949a832cee, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 2865827115552983683, guid: 9c5a3a91eefab8142ba5c116da744f75, type: 3}
+  description: Restores 30 health
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 0
+  timeSkill: 60
+  skillDamage: 0
+  canUse: 0
+  isHaving: 1

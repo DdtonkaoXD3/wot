@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Heavy Attack
+  m_EditorClassIdentifier: 
+  name: Heavy Attack
+  percentDamage: 1
+  damage: 180
+  PercentCost: 0
+  manaCost: 22
+  cooldown: 5
+  elemental: {fileID: 11400000, guid: fe9a8ba6462858c4e81676949a832cee, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 6508020047550768958, guid: 95859582c62c95644a3a97e9ae44a249, type: 3}
+  description: Fire a powerful arrow at an enemy
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 4293318829
+  timeSkill: 5
+  skillDamage: 180
+  canUse: 0
+  isHaving: 1

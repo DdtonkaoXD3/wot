@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Sticky Buff
+  m_EditorClassIdentifier: 
+  name: Sticky Buff
+  percentDamage: 0
+  damage: 0
+  PercentCost: 0
+  manaCost: 40
+  cooldown: 12
+  elemental: {fileID: 11400000, guid: 449fd046c4bd42b46a56a383e13d7ad4, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 2388404872092444206, guid: 6b73690c3b3ed6546b10cf328f018191, type: 3}
+  description: Gain a 10-second buff that causes every attack on an enemy to slow
+    them by 70% for 3 seconds
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 0
+  timeSkill: 1.1
+  skillDamage: 0
+  canUse: 0
+  isHaving: 1

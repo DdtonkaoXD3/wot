@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8793ddc53f9ef34eae6cc2db722f5a1, type: 3}
+  m_Name: Blouder
+  m_EditorClassIdentifier: 
+  name: Blounder
+  percentDamage: 1
+  damage: 150
+  PercentCost: 0
+  manaCost: 20
+  cooldown: 3
+  elemental: {fileID: 11400000, guid: 4d588027e2b55774f8523c8b98887c06, type: 2}
+  artwork: {fileID: 0}
+  prefabSkill: {fileID: 1933515814397310319, guid: 54b81ad958f795f4abaeea8de4dd35cc, type: 3}
+  description: Shoot arrows that deal massive damage and stun enemies.
+  isUsing: 0
+  isCooldown: 1
+  colorElement:
+    serializedVersion: 2
+    rgba: 0
+  timeSkill: 3
+  skillDamage: 0
+  canUse: 0
+  isHaving: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2dc15d9fef5d245af5a06b368ac487, type: 3}
+  m_Name: Electric
+  m_EditorClassIdentifier: 
+  name: Electric
+  elementalLogo: {fileID: 2113367358, guid: a8cae74f7970a094c919b78376e32117, type: 3}
+  strength:
+  - {fileID: 11400000, guid: 449fd046c4bd42b46a56a383e13d7ad4, type: 2}
+  weakness:
+  - {fileID: 11400000, guid: 4d588027e2b55774f8523c8b98887c06, type: 2}
+  elementalColor:
+    serializedVersion: 2
+    rgba: 4278255527
+  colorText:
+    serializedVersion: 2
+    rgba: 4278255615

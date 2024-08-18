@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class KibbyWave : MonoBehaviour
+{
+    [SerializeField] private GameObject player;
+    private void Start()
+    {
+        if (Kibby.instance != null)
+        {
+            player = GameObject.FindWithTag("Player");
+        }
+        
+    }
+    private void Update()
+    {
+        if ((player.gameObject != null) && (Kibby.instance != null)) //ป้องกัน kibby ถูกทำลาย "ถ้า kibby ถูกทำลาย void update จะไม่ทำงาน"
+        {
+            transform.position = new(player.transform.position.x, player.transform.position.y, player.transform.position.z);
+        }        
+    }
+    void DestroyWave()
+    {
+        Kibby.instance.isAttack = false;
+        Destroy(gameObject);
+    }
+
+}

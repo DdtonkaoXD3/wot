@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1ab9cdda10f524fb4919d26b48f53e, type: 3}
+  m_Name: Kenshi
+  m_EditorClassIdentifier: 
+  name: Kenshi
+  character: {fileID: -1739445956, guid: 2120b8441fe01f84d95be0f86961af1c, type: 3}
+  colorThiny:
+    serializedVersion: 2
+    rgba: 4278511280
+  elemental: {fileID: 11400000, guid: 7e16ce432a5bc4542a4c1bb5699bdf2d, type: 2}
+  hp: 120
+  def: 12
+  atk: 40
+  mp: 90
+  atkSpeed: 1
+  moveSpeed: 4.5
+  criticalRate: 30
+  criticalDamage: 130
+  skillResistance: 0
+  isRange: 0
+  currentHp: 120
+  currentMp: 90
+  timeSkills:
+  - 99
+  - 99
+  - 99
+  - 99
+  firstTime: 1
+  isDied: 0
+  cri: 0
+  thinyPrefab: {fileID: 141193891018263978, guid: 0bad0ea0d9eff6d48a4c31f912097d24, type: 3}
+  isHaving: 1
+  skills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
